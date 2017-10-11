@@ -5,12 +5,12 @@ This is a simple starting point for using [Structurizr for .NET](https://github.
 ## 1. Clone the repo
 
 ```
-git clone https://github.com/structurizr/dotnet-core-starter.git
+git clone https://github.com/structurizr/dotnet-core-quickstart.git
 ```
 
 ## 2. Set your workspace ID, API key and secret
 
-Modify the constants at the top of [dotnet-core-starter/blob/master/structurizr/Program.cs](https://github.com/structurizr/dotnet-core-starter/blob/master/structurizr/Program.cs) to reflect your own Structurizr workspace (this information is available on your dashboard, after signing in).
+Modify the constants at the top of [structurizr/Program.cs](https://github.com/structurizr/dotnet-core-quickstart/blob/master/structurizr/Program.cs) to reflect your own Structurizr workspace (this information is available on your dashboard, after signing in).
 
 ```c#
 private const long WorkspaceId = 1234;
