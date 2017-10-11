@@ -6,7 +6,7 @@ namespace structurizr
 {
     
     /// <summary>
-    /// This is a simple example of how to get started with Structurizr for .NET.
+    /// This is a simple example of how to get started with Structurizr for .NET Core.
     /// </summary>
     class Program
     {
@@ -46,10 +46,10 @@ namespace structurizr
             styles.Add(new ElementStyle(Tags.SoftwareSystem) { Background = "#1168bd", Color = "#ffffff" });
             styles.Add(new ElementStyle(Tags.Person) { Background = "#08427b", Color = "#ffffff", Shape = Shape.Person });
 
-            uploadWorkspaceToStructurizr(workspace);
+            UploadWorkspaceToStructurizr(workspace);
         }
 
-        private static void uploadWorkspaceToStructurizr(Workspace workspace) {
+        private static void UploadWorkspaceToStructurizr(Workspace workspace) {
             StructurizrClient structurizrClient = new StructurizrClient(ApiKey, ApiSecret);
             structurizrClient.PutWorkspace(WorkspaceId, workspace);
         }
