@@ -1,6 +1,6 @@
-# Structurizr for .NET Core quickstart
+# Structurizr for .NET quickstart (.NET Core version)
 
-This is a simple starting point for using [Structurizr for .NET Core](https://github.com/structurizr/dotnet). To use it:
+This is a simple starting point for using [Structurizr for .NET](https://github.com/structurizr/dotnet). To use it:
 
 ## 1. Clone the repo
 

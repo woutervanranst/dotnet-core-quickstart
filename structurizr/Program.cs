@@ -6,7 +6,7 @@ namespace structurizr
 {
     
     /// <summary>
-    /// This is a simple example of how to get started with Structurizr for .NET Core.
+    /// This is a simple example of how to get started with Structurizr for .NET.
     /// </summary>
     class Program
     {
