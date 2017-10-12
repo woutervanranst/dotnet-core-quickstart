@@ -1,4 +1,4 @@
-# Structurizr for .NET Core starter
+# Structurizr for .NET Core quickstart
 
 This is a simple starting point for using [Structurizr for .NET Core](https://github.com/structurizr/dotnet). To use it:
 
