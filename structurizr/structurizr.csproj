@@ -4,6 +4,6 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Structurizr.Core" Version="0.6.0" />
+    <PackageReference Include="Structurizr.Core" Version="0.7.0" />
   </ItemGroup>
 </Project>
