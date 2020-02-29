@@ -4,6 +4,6 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Structurizr.Client" Version="0.9.5" />
+    <PackageReference Include="Structurizr.Client" Version="0.9.6" />
   </ItemGroup>
 </Project>
