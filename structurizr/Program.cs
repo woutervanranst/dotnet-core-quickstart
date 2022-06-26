@@ -27,7 +27,7 @@ namespace structurizr
             user.Uses(softwareSystem, "Uses");
             
             // add implicit relationships; this is enabled by default on the DSL, but not with the .NET library (for all options see https://github.com/structurizr/dotnet/blob/master/docs/implied-relationships.md)
-            model.AddImplicitRelationships();
+            model.ImpliedRelationshipsStrategy = new CreateImpliedRelationshipsUnlessAnyRelationshipExistsStrategy();
 
             // define some views (the diagrams you would like to see)
             ViewSet views = workspace.Views;
